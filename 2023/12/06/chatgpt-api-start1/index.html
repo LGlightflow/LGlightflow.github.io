@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="chatgpt," />
 
 
 
@@ -79,15 +79,23 @@
 
 
 
-<meta name="description" content="我的qq空间(bushi">
-<meta property="og:type" content="website">
-<meta property="og:title" content="light&#39;s blog">
-<meta property="og:url" content="https://lglightflow.github.io/index.html">
+<meta name="description" content="不要问我为什么这么久没更新，把部分博客更新到软件工程的博客上面了，而且最近做的东西太杂了不好整理…… 研究了一下chatgpt的api 1.快速安装快速概括一下安装步骤：（假设已经有python）在cmd或shell中： 12pip install openaisetx OPENAI_API_KEY &quot;这里填上api&quot;  现在通过代码来跟chatgpt进行对话： 1234567">
+<meta property="og:type" content="article">
+<meta property="og:title" content="chatgpt_api_start1">
+<meta property="og:url" content="https://lglightflow.github.io/2023/12/06/chatgpt-api-start1/index.html">
 <meta property="og:site_name" content="light&#39;s blog">
-<meta property="og:description" content="我的qq空间(bushi">
+<meta property="og:description" content="不要问我为什么这么久没更新，把部分博客更新到软件工程的博客上面了，而且最近做的东西太杂了不好整理…… 研究了一下chatgpt的api 1.快速安装快速概括一下安装步骤：（假设已经有python）在cmd或shell中： 12pip install openaisetx OPENAI_API_KEY &quot;这里填上api&quot;  现在通过代码来跟chatgpt进行对话： 1234567">
 <meta property="og:locale">
+<meta property="og:image" content="https://lglightflow.github.io/2023/12/06/chatgpt-api-start1/2023/12/06/chatgpt-api-start1/output1.png">
+<meta property="og:image" content="https://lglightflow.github.io/2023/12/06/chatgpt-api-start1/2023/12/06/chatgpt-api-start1/output2.png">
+<meta property="og:image" content="https://lglightflow.github.io/2023/12/06/chatgpt-api-start1/2023/12/06/chatgpt-api-start1/output3.png">
+<meta property="og:image" content="https://lglightflow.github.io/2023/12/06/chatgpt-api-start1/2023/12/06/chatgpt-api-start1/output4.png">
+<meta property="article:published_time" content="2023-12-06T07:37:13.000Z">
+<meta property="article:modified_time" content="2023-12-06T15:37:35.289Z">
 <meta property="article:author" content="流光">
+<meta property="article:tag" content="chatgpt">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://lglightflow.github.io/2023/12/06/chatgpt-api-start1/2023/12/06/chatgpt-api-start1/output1.png">
 
 
 
@@ -117,13 +125,13 @@
 
 
 
-  <link rel="canonical" href="https://LGlightflow.github.io/"/>
+  <link rel="canonical" href="https://LGlightflow.github.io/2023/12/06/chatgpt-api-start1/"/>
 
 
 
 
 
-  <title>light's blog</title>
+  <title>chatgpt_api_start1 | light's blog</title>
   
 
 
@@ -176,8 +184,7 @@ p.spoiler {
     
   
 
-  <div class="container sidebar-position-right 
-  page-home">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -280,9 +287,9 @@ p.spoiler {
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -312,9 +319,7 @@ p.spoiler {
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2023/12/06/chatgpt-api-start1/" itemprop="url">chatgpt_api_start1</a></h1>
+          <h1 class="post-title" itemprop="name headline">chatgpt_api_start1</h1>
         
 
         <div class="post-meta">
@@ -397,9 +402,7 @@ p.spoiler {
       
 
       
-        
-          
-            <p><del>不要问我为什么这么久没更新，把部分博客更新到软件工程的博客上面了，而且最近做的东西太杂了不好整理……</del></p>
+        <p><del>不要问我为什么这么久没更新，把部分博客更新到软件工程的博客上面了，而且最近做的东西太杂了不好整理……</del></p>
 <p>研究了一下chatgpt的api</p>
 <h2 id="1-快速安装"><a href="#1-快速安装" class="headerlink" title="1.快速安装"></a>1.快速安装</h2><p>快速概括一下安装步骤：（假设已经有python）<br>在cmd或shell中：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pip install openai</span><br><span class="line">setx OPENAI_API_KEY <span class="string">&quot;这里填上api&quot;</span></span><br></pre></td></tr></table></figure>
@@ -452,8 +455,6 @@ p.spoiler {
 
 <p>python代码</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> openai <span class="keyword">import</span> OpenAI</span><br><span class="line"><span class="comment">######################step 1</span></span><br><span class="line">messages1=[</span><br><span class="line">    &#123;<span class="string">&quot;role&quot;</span>: <span class="string">&quot;system&quot;</span>, <span class="string">&quot;content&quot;</span>: <span class="string">&quot;助手描述信息&quot;</span>&#125;,</span><br><span class="line">    &#123;<span class="string">&quot;role&quot;</span>: <span class="string">&quot;user&quot;</span>, <span class="string">&quot;content&quot;</span>: <span class="string">&quot;向gpt提的要求&quot;</span>&#125;,</span><br><span class="line">] </span><br><span class="line"></span><br><span class="line">client = OpenAI()</span><br><span class="line">response = client.chat.completions.create(</span><br><span class="line">  model=<span class="string">&quot;gpt版本&quot;</span>,</span><br><span class="line">  messages=messages1,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(response.choices[<span class="number">0</span>].message.content)</span><br><span class="line"><span class="built_in">print</span>()</span><br><span class="line"></span><br><span class="line"><span class="comment">######################</span></span><br><span class="line"><span class="comment">######################</span></span><br><span class="line">messages1.append(&#123;<span class="string">&quot;role&quot;</span>: <span class="string">&quot;assistant&quot;</span>, <span class="string">&quot;content&quot;</span>: response.choices[<span class="number">0</span>].message.content&#125;)</span><br><span class="line">messages1.append(&#123;<span class="string">&quot;role&quot;</span>: <span class="string">&quot;user&quot;</span>, <span class="string">&quot;content&quot;</span>: <span class="string">&quot;新要求&quot;</span>&#125;)</span><br><span class="line"></span><br><span class="line">client = OpenAI()</span><br><span class="line">response = client.chat.completions.create(</span><br><span class="line">  model=<span class="string">&quot;gpt版本&quot;</span>,,</span><br><span class="line">  messages=messages1,</span><br><span class="line">)</span><br><span class="line"><span class="built_in">print</span>(response.choices[<span class="number">0</span>].message.content)</span><br><span class="line"><span class="built_in">print</span>()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">######################重复区域</span></span><br><span class="line"><span class="comment">######################</span></span><br></pre></td></tr></table></figure>
-          
-        
       
     </div>
     
@@ -468,330 +469,36 @@ p.spoiler {
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://LGlightflow.github.io/2023/10/22/video-stitch/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="light's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2023/10/22/video-stitch/" itemprop="url">动态视频拼接学习(1)</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-10-22T23:21:50+08:00">
-                2023-10-22
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/" itemprop="url" rel="index">
-                    <span itemprop="name">计算机</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/" itemprop="url" rel="index">
-                    <span itemprop="name">图像处理</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/chatgpt/" rel="tag"># chatgpt</a>
           
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><a target="_blank" rel="noopener" href="https://github.com/SuTanTank/VideoStitchingViaShakinessRemoving">https://github.com/SuTanTank/VideoStitchingViaShakinessRemoving</a><br>感觉这篇文章和代码写的很有参考价值，就打算复现了。</p>
-<h2 id="前期工作"><a href="#前期工作" class="headerlink" title="前期工作"></a>前期工作</h2><ol>
-<li><p>安装matlab,matlab的cvx cmake c++ opencv(c++)等一堆依赖<br> cvx安装和证书获取：<a target="_blank" rel="noopener" href="https://blog.csdn.net/ziye00__/article/details/125685475">https://blog.csdn.net/ziye00__/article/details/125685475</a> （我安装在linux，但是写博客是在win上写，所以没截图，以后有需要再补上）</p>
-</li>
-<li><p>在matlab运行.&#x2F;case-cuhk_lib&#x2F;video2frames.m，如果用自己拍的视频的话，视频时间长度需一致；</p>
-</li>
-<li><p>matlab运行.&#x2F;Stitching-1.1.0&#x2F;RunStitching.m</p>
-</li>
-<li><p>对 .&#x2F;SeamCut 使用cmake，如果编译器不是visual studio系列的话，需要将main.cpp的printf_s改为printf</p>
-</li>
-<li><p>将编译出来的可执行文件放到与结果图片同一目录下（即放在res_grid&#x2F;或res_demo&#x2F;下），运行</p>
-</li>
-<li><p>最后我用ffmpeg将图片按时间拼接为视频</p>
-</li>
-</ol>
-<h2 id="图片结果（博客暂不支持视频）"><a href="#图片结果（博客暂不支持视频）" class="headerlink" title="图片结果（博客暂不支持视频）"></a>图片结果（博客暂不支持视频）</h2><p><img src="2023/10/22/video-stitch/sti_res.png"></p>
-<h2 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h2><ol>
-<li>色差：两部手机参数不同导致，且光线强度与颜色不同，解决方法：<del>换手机</del> 借设备</li>
-<li>重影：手机没拿稳（毕竟人家demo的视频用无人机），视差偏大（这是作者没解决的问题之一）</li>
-<li>拼接缝有点问题…估计也是视差导致的</li>
-<li>另外在处理视频是可能有清晰度下降的问题，导致拼接效果差</li>
-</ol>
-<p>下回再继续分解<br>更新一下：<br>作者的拼缝计算与图片融合是有问题的，之前写了一个星期没写出来,,,看一下我能不能把这个坑填了</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
       
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://LGlightflow.github.io/2023/08/18/%E4%BD%BF%E7%94%A8frp%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84wordpress%E5%8F%91%E7%94%9F%E9%87%8D%E5%AE%9A%E5%90%91%E7%9A%84%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="light's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2023/08/18/%E4%BD%BF%E7%94%A8frp%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84wordpress%E5%8F%91%E7%94%9F%E9%87%8D%E5%AE%9A%E5%90%91%E7%9A%84%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/" itemprop="url">使用frp的服务器上的wordpress发生端口重定向的问题排查过程记录</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-08-18T19:10:27+08:00">
-                2023-08-18
-              </time>
+              <a href="/2023/10/22/video-stitch/" rel="next" title="动态视频拼接学习(1)">
+                <i class="fa fa-chevron-left"></i> 动态视频拼接学习(1)
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>这次问题排查涉及三个设备：架设有wordpress和hexo博客的ubuntu服务器，同时是内网穿透frp的客户端（记为A）；作frp服务端的centos，也架设有wordpress（记为B），还有我的笔记本电脑记为C。</p>
-<p>问题：当我在笔记本浏览器中输入lightandshadow.site:8082&#x2F;wp(8082是frp运行web的端口) 时，会重定向到lightandshadow.site&#x2F;wp；</p>
-<p>排查：</p>
-<ol>
-<li>怀疑是frp的问题，因为A还架设了hexo，我访问lightandshadow.site:8082&#x2F;hexo，发现访问正常，故排除；</li>
-<li>怀疑是wordpress本身的问题，用内网地址登入：192.168.1.2&#x2F;wp，此时访问又是正常的，故wordpress<u>应该(?)</u>是正常的；</li>
-<li>frp服务端问题，但B上的wordpress又能正常运行；</li>
-<li>对浏览器f12，打开network一栏，发现名字叫 “wp&#x2F;” 的请求的状态为301 moved permanently，且发现：<img src="2023/08/18/%E4%BD%BF%E7%94%A8frp%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84wordpress%E5%8F%91%E7%94%9F%E9%87%8D%E5%AE%9A%E5%90%91%E7%9A%84%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/apache_ubuntuf12.png"><br>说明请求已经发送到A上，但为什么没有返回正确结果？结合1、2，推测是A的wordpress发生端口重定向，强制将请求定向到lightandshadow.site&#x2F;wp，返回404结果到C上；</li>
-</ol>
-<p>解决：添加代码到wp-config.php,</p>
-<pre><code>SERVER[&#39;HTTP_HOST&#39;]=$_SERVER[&#39;HTTP_X_FORWARDED_HOST&#39;];
-</code></pre>
-<p><img src="2023/08/18/%E4%BD%BF%E7%94%A8frp%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84wordpress%E5%8F%91%E7%94%9F%E9%87%8D%E5%AE%9A%E5%90%91%E7%9A%84%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/SERVER%5B'HTTP_HOST'%5D=$_SERVER%5B'HTTP_X_FORWARDED_HOST'%5D;.png"></p>
-<p>另外如果想要让经frp内网穿透的wordpress同时支持域名访问和内网ip访问，可以在dashboard的settings-&gt;general中这么设置：</p>
-<p><img src="2023/08/18/%E4%BD%BF%E7%94%A8frp%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84wordpress%E5%8F%91%E7%94%9F%E9%87%8D%E5%AE%9A%E5%90%91%E7%9A%84%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/wp_url.png"></p>
-<p>2023&#x2F;8&#x2F;19更新：按上面这么设置会导致：“发布失败，您可能已经掉线”（Updating Failed , Publishing Failed Error）,要在function.php加入以下代码强制重定向</p>
-<pre><code>add_filter(&#39;rest_url&#39;, &#39;themepark_home_url_as_api_url&#39;);
-function themepark_home_url_as_api_url($url) &#123;
-$url = str_replace(home_url(),site_url() , $url);
-return $url;
-</code></pre>
-<p>}</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -801,271 +508,11 @@ return $url;
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://LGlightflow.github.io/2023/07/20/%E6%B5%8B%E8%AF%95%20-%20%E5%89%AF%E6%9C%AC/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="light's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2023/07/20/%E6%B5%8B%E8%AF%95%20-%20%E5%89%AF%E6%9C%AC/" itemprop="url">测试2</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-07-20T19:10:27+08:00">
-                2023-07-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>#1123123</p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://LGlightflow.github.io/2023/07/20/%E6%B5%8B%E8%AF%95/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="light's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2023/07/20/%E6%B5%8B%E8%AF%95/" itemprop="url">测试</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-07-20T19:10:27+08:00">
-                2023-07-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/test/" itemprop="url" rel="index">
-                    <span itemprop="name">test</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -1073,6 +520,10 @@ return $url;
 
 
           
+
+  
+
+
 
         </div>
         
@@ -1093,8 +544,17 @@ return $url;
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1154,6 +614,22 @@ return $url;
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E5%BF%AB%E9%80%9F%E5%AE%89%E8%A3%85"><span class="nav-number">1.</span> <span class="nav-text">1.快速安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AF%B7%E6%B1%82request"><span class="nav-number">2.</span> <span class="nav-text">请求request</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%93%8D%E5%BA%94response"><span class="nav-number">3.</span> <span class="nav-text">3.响应response</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E7%AE%A1%E7%90%86token"><span class="nav-number">4.</span> <span class="nav-text">4.管理token</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-temperature%E5%8F%82%E6%95%B0"><span class="nav-number">5.</span> <span class="nav-text">5.temperature参数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-chatgpt%E8%AF%BB%E5%8F%96%E9%9F%B3%E9%A2%91-%E5%9B%BE%E5%83%8F%E7%AD%89%E2%80%A6%E2%80%A6"><span class="nav-number">6.</span> <span class="nav-text">6. chatgpt读取音频,图像等……</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E6%9D%BF"><span class="nav-number">7.</span> <span class="nav-text">模板</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1294,6 +770,10 @@ return $url;
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
